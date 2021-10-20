@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0" />
+    <title>UVU</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"> <img src="uvu_images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>World's Greatest University</h1>
+        <p>
+          UVU's unique model focuses on students' success. Through engaged
+          learning and rigorous academic programs, <br />
+          students are provided with the best experience.
+        </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+      </div>
+    </section>
+
+    <!--- degrees -->
+    <section class="course">
+      <h1>Degrees We Offer</h1>
+      <div class="row">
+        <div class="course-col">
+          <h3>Associate</h3>
+          <p>
+            Learn about your educational and career options and start your
+            academic journey with an Associate degree at UVU.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Bachelor</h3>
+          <p>
+            Learn about your educational and career options and start your
+            academic journey with a Bachelor's degree at UVU.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Master</h3>
+          <p>
+            Learn about your educational and career options and start your
+            academic journey with a Master's degree at UVU.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- campus -->
+    <!---
+    <section class="campus">
+      <h1>Our Campus</h1>
+      <p>
+        UVU's unique model focuses on students' success. Through engaged
+        learning and rigorous academic programs, students are provided with the
+        best experience.
+      </p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="uvu_images/main_campus.jpg" />
+          <div class="layer">
+            <h3>MAIN CAMPUS</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="uvu_images/wasatch.jpg" />
+          <div class="layer">
+            <h3>WASATCH CAMPUS</h3>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!--- facilities -->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        UVU's unique model focuses on students' success. Through engaged
+        learning and rigorous academic programs, students are provided with the
+        best experience.
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.png" />
+          <h3>World Class Library</h3>
+          <p>
+            The UVU library features cutting-edge technology and plenty of room
+            for engaged learning.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="uvu_images/gym3.jpg" />
+          <h3>Gym</h3>
+          <p>
+            UVU offers a variety of recreational services to provide care about
+            students' mental and physical well being.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" />
+          <h3>Healthy Food</h3>
+          <p>Our university provides excelent dining options on campus.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h1>
+        Enroll For Our Various Online Courses <br />Anywhere From The World
+      </h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!--- Footer -->
+    <section class="footer">
+      <a href="" class="new-btn">About Us</a>
+      <p>
+        800 WEST UNIVERSITY PARKWAY, OREM, UT 84058 | (801) 863-8888 | © UTAH
+        VALLEY UNIVERSITY<br />Terms of Use | Privacy Statement | Copyright
+        Complaints | Non-Discrimination
+      </p>
+    </section>
+
+    <!-------- JavaScript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
